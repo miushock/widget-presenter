@@ -54,7 +54,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('freelog-widgetscript');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmtasks('grunt-http');
+  grunt.loadNpmTasks('grunt-http');
 
   grunt.registerTask('default', ['jshint']);
 
