@@ -17,6 +17,8 @@ define(['domReady!','jquery', 'freelog_api','reveal'],  function(doc, $, freelog
           wrapper: presenter.wrapper_node[0],
           transition: 'slide', 
         });
+        
+        reveal.slide(0);
       });
     }
   }
